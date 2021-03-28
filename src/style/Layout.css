@@ -1,0 +1,29 @@
+.site-layout-content {
+    min-height: 600px;
+    padding: 24px;
+    background: #fff;
+}
+
+.layout-container {
+    padding: 0 50px;
+}
+
+.breadcrumb {
+    margin: 16px 0;
+}
+
+#components-layout-demo-top .logo {
+    float: left;
+    width: 120px;
+    height: 31px;
+    margin: 16px 24px 16px 0;
+    background: rgba(255, 255, 255, 0.3);
+}
+.ant-row-rtl #components-layout-demo-top .logo {
+    float: right;
+    margin: 16px 0 16px 24px;
+}
+
+.ant-menu.ant-menu-dark .ant-menu-item-selected {
+    background-color: lightslategrey ;
+}
