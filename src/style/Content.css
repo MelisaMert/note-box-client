@@ -5,3 +5,14 @@
 .card-style{
     width: 400px;
 }
+
+.page-sub-button {
+    position: fixed;
+    bottom: 0px;
+    right: 0px; 
+    margin-right: 50px;
+    margin-bottom: 25px;
+    border-radius: 40px;
+    font-size: 15px;
+    background-color: orange;
+}

@@ -1,6 +1,6 @@
-import { Card, Row, Col , message} from 'antd';
+import { Card, Row, Col , Button, message} from 'antd';
 
-import { PlusCircleOutlined } from '@ant-design/icons';
+import { PlusCircleOutlined , DoubleRightOutlined} from '@ant-design/icons';
 
 import '../style/Content.css';
 
@@ -75,6 +75,12 @@ function LayoutContent() {
                         <p>Follow The Planning</p>
                     </Card>
                 </Col>
+            </Row>
+            <Row>
+            <Button className="page-sub-button">
+               <DoubleRightOutlined />
+                Go To My Notes
+            </Button>
             </Row>
         </>
     )
